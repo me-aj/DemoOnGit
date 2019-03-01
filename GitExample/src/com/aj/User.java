@@ -2,6 +2,7 @@ package com.aj;
 
 public class User {
 	private String name;
+	private String city;
 
 	public String getName() {
 		return name;
