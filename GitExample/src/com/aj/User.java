@@ -2,6 +2,7 @@ package com.aj;
 
 public class User {
 	private String name;
+	private String city;
 
 	public String getName() {
 		return name;
@@ -14,6 +15,14 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [name=" + name + "]";
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
 	}
 	
 }
